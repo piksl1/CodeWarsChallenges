@@ -3,12 +3,11 @@
 As a good parent, you will sit and count with him. Given the number (n), populate an array with all numbers up to and including that number, but excluding zero. */
 //loop
 function monkeyCount(n) {
-  // your code here
-  // let result = [];
-  // for (let i = 1; i <= n; i++) {
-  //   result.push(i);
-  // }
-  // return result;
-  return n.Array.from(n.toString(), Number).map((x) => x);
+  //   your code here
+  let result = [];
+  for (let i = 1; i <= n; i++) {
+    result.push(i);
+  }
+  return result;
 }
 console.log(monkeyCount(10));
