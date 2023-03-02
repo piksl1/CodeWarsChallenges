@@ -6,30 +6,21 @@ For example: month 2 (February), is part of the first quarter; month 6 (June), i
 const quarterOf = (month) => {
   switch (month) {
     case 1:
-      return 1;
     case 2:
-      return 1;
-
     case 3:
-      return 1;
+      quarter = 1;
+      break;
     case 4:
-      return 2;
     case 5:
-      return 2;
     case 6:
-      return 2;
+      quarter = 2;
+      break;
     case 7:
-      return 3;
     case 8:
-      return 3;
     case 9:
-      return 3;
-    case 10:
-      return 4;
-    case 11:
-      return 4;
-    case 12:
-      return 4;
+      quarter = 3;
+      break;
   }
+  return quarter;
 };
 console.log(quarterOf(11));
