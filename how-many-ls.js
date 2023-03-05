@@ -11,4 +11,4 @@ function howManyLightsabersDoYouOwn(name) {
   return name === "Zach" ? 18 : 0;
 }
 
-console.log(addLength("apple ban"));
+console.log(howManyLightsabersDoYouOwn("adam"));
